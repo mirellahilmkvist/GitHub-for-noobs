@@ -1,0 +1,50 @@
+<style>
+    .action-buttons {
+        margin: 10px 0;
+    }
+
+    .swimlanes {
+        margin: 15px 0 90px 0;
+        min-height: 600px;
+        display: block;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .lane-column {
+        width: 310px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        display: block;
+        float: left;
+    }
+
+    .lane-title {
+        padding: 15px 25px;
+        border-bottom: 2px solid #ccc;
+        background: #f0f0f0;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .lane-block {
+        background: #eee;
+        min-height: 700px;
+        display: block;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        padding: 15px;
+    }
+
+    .lane-title input {
+        border: none !important;
+        font-size: 11px !important;
+        margin: 0 !important;
+        padding: 2px !important;
+        height: auto !important;
+    }
+
+    .card.opened {
+        height: 350px;
+    }
+</style>
